@@ -13,7 +13,7 @@ end
 
 text_count = 100;  
  
- input = load('./data/LFR/AGN4/0.1.mat');
+ input = load('./data/LFR/AGN3/zout4.mat');
  base_class = input.idx;
  W = input.mul;
  Q = zeros(text_count,1);
